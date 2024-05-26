@@ -3,7 +3,6 @@ from student_classes.models import StudentClass
 from django.urls import reverse
 from datetime import date
 # Create your models here.
-# This is test.
 
 class Student(models.Model):
     select_gender = (
